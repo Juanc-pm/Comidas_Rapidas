@@ -1,0 +1,68 @@
+/*
+Theme Name: Helium Child Theme
+Description: Helium Child Theme
+Template: helium
+Version: 1.0
+*/
+
+@import url("../helium/assets/css/helium.min.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+.entry-content .entry-content p{
+	color:#888;
+	padding-top:30px;
+}
+
+#botondescargar, #botonvistaprevia, .botondescargar{
+	background-color:#3dc9b3;
+	color:#fff;
+	padding:20px;
+	font-size:120%;
+	font-weight:bold;
+	float:left;
+	margin-top:20px;
+}
+#botondescargar{
+	margin-right:20px;
+}
+#botondescargar:hover, #botonvistaprevia:hover{
+opacity: 0.7;
+  filter: alpha(opacity=70)
+}
+#menu-item-15435-en,#menu-item-15434-en {
+	margin-bottom:50px;
+	border-bottom:1px solid #f0f0f0;
+}
+.blog-author h4{
+	margin-top:0;
+}
+.blog-author .botondescargar{
+	margin-top:0;
+	margin-right:0;
+}
+.blog-author p{
+	color:#888;
+	margin-bottom:0;
+}
+.blog-author ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+@media (min-width: 992px) {
+	.content-box #nuevos_relacionados .container {
+		max-width: 100%;
+		padding-left:0;
+		padding-right:5px;
+		margin-top:90px;
+		
+	  }
+	  .content-box #nuevos_relacionados {
+		padding:0 65px 85px 0;  
+	  }
+	  .botondescargar{
+		  float: right;
+	  }
+
+}

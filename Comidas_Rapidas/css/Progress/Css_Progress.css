@@ -1,0 +1,47 @@
+﻿body {
+}
+
+.Background {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #171616;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    z-index: 100000;
+}
+
+.Progress {
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    height: 30%;
+    width: 30%;
+    z-index: 100001;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    background-image: url('../../Images/cargando.gif');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+}
+
+@media screen and (min-width: 400px) {
+    Progress {
+        background-image: url("../../Images/cargando.gif");
+    }
+}
+
+@media screen and (max-width: 399px) {
+    Progress {
+        background-image: url("../../Images/cargando.gif");
+        
+    }
+}
+

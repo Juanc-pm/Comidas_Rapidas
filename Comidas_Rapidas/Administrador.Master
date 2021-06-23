@@ -1,0 +1,356 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Administrador.master.cs" Inherits="Comidas_Rapidas.Administrador" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-1479721362204575",
+            enable_page_level_ads: true
+        });
+						 	</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117567504-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117567504-3');
+						 	</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="xmlrpc.php">
+
+
+    <!-- This site is optimized with the Yoast SEO plugin v14.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Willy`s y su Sabor</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="index.html" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://plantillashtmlgratis.com/" />
+    <meta property="article:modified_time" content="2020-12-19T22:40:48+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://plantillashtmlgratis.com/#website","url":"https://plantillashtmlgratis.com/","name":"Plantillas HTML Gratis","description":"Las mejores plantillas html totalmente gratuitas","potentialAction":[{"@type":"SearchAction","target":"https://plantillashtmlgratis.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"WebPage","@id":"https://plantillashtmlgratis.com/#webpage","url":"https://plantillashtmlgratis.com/","name":"Plantillas HTML Gratis: M\u00e1s de 6000 plantillas web gratis a tu disposici\u00f3n","isPartOf":{"@id":"https://plantillashtmlgratis.com/#website"},"datePublished":"2019-03-22T11:27:01+00:00","dateModified":"2020-12-19T22:40:48+00:00","description":"La mayor colecci\u00f3n de plantillas HTML gratuitas para descargar a tu disposici\u00f3n separadas por temas y preparadas para descargar y usar en tus proyectos.","inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://plantillashtmlgratis.com/"]}]}]}</script>
+    <!-- / Yoast SEO plugin. -->
+
+
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <link rel="alternate" type="application/rss+xml" title="Plantillas HTML Gratuitas &raquo; Feed" href="feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Plantillas HTML Gratuitas &raquo; Feed de los comentarios" href="comments/feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Plantillas HTML Gratuitas &raquo; Comentario Inicio del feed" href="sample-page/feed/index.html" />
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/plantillashtmlgratis.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.8" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+						 	</script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+
+    <%--    <link href="wp-content/themes/helium/assets/bootstrap/css/bootstrap.min7433.css" rel="stylesheet" />--%>
+    <link href="wp-content/themes/helium-child/style5152.css?ver=1.0' type='text/css" rel="stylesheet" />
+    <style id='helium-inline-css' type='text/css'>
+        .brand .site-logo--image img {
+            max-height: 28px
+        }
+
+        @media (min-width:992px) {
+            .brand .site-logo--image img {
+                max-height: 28px
+            }
+        }
+    </style>
+    <link href="wp-content/themes/helium/assets/icons/fontawesome/css/font-awesome.min1c9b.css?ver=4.6.1" rel="stylesheet" />
+    <link href="wp-content/themes/helium/assets/plugins/mfp/mfp8a54.css?ver=1.0.0" rel="stylesheet" />
+    <link href="wp-content/themes/helium/assets/plugins/royalslider/royalslider.min97de.css?ver=1.0.5" rel="stylesheet" />
+    <link href="wp-content/plugins/youxi-shortcode/assets/frontend/plugins/leaflet/leaflet62ea.css?ver=1.2" rel="stylesheet" />
+    <link href="wp-content/plugins/easy-fancybox/css/jquery.fancybox.min4271.css?ver=1.3.24" rel="stylesheet" />
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <link rel='https://api.w.org/' href='wp-json/index.html' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.3.8" />
+    <link rel='shortlink' href='index.html' />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed06f2.json?url=https%3A%2F%2Fplantillashtmlgratis.com%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedf1ad?url=https%3A%2F%2Fplantillashtmlgratis.com%2F&amp;format=xml" />
+    <link rel="alternate" href="index.html" hreflang="es" />
+    <link rel="alternate" href="en/home/index.html" hreflang="en" />
+    <link rel="icon" href="images/logo.png" sizes="32x32" />
+    <link rel="icon" href="images/logo.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="images/logo.png" />
+    <meta name="msapplication-TileImage" content="https://plantillashtmlgratis.com/wp-content/uploads/2019/03/cropped-icono-plantillas-html-gratis-300x300.jpg" />
+    <style type="text/css" id="wp-custom-css">
+        /*
+						   Theme Name: Helium Child Theme
+						   Description: Helium Child Theme
+						   Template: helium
+						   Version: 1.0
+						   */
+
+        @import url("wp-content/themes/helium/assets/css/helium.min.css");
+
+        /* =Theme customization starts here
+						   ------------------------------------------------------- */
+        #botondescargar, #botonvistaprevia {
+            background-color: #3dc9b3;
+            color: #fff;
+            padding: 20px;
+            font-size: 120%;
+            font-weight: bold;
+            float: left;
+            margin-top: 20px;
+        }
+
+        #botondescargar {
+            margin-right: 20px;
+        }
+
+            #botondescargar:hover, #botonvistaprevia:hover {
+                opacity: 0.7;
+                filter: alpha(opacity=70);
+            }
+
+        #menu-item-15435-en, #menu-item-15434-en {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        #perfil {
+            clip-path: circle(100% at 50% 50%);
+        }
+    </style>
+    <link rel="stylesheet" href="Admin_Estilos/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="Admin_Estilos/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="Admin_Estilos/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <script src="Admin_Estilos/plugins/jquery/jquery.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="home page-template page-template-archive-portfolio page-template-archive-portfolio-php page page-id-2 wp-custom-logo" itemscope itemtype="http://schema.org/WebPage">
+    <form id="form1" runat="server">
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <div class="site-outer-wrap" style="background: azure">
+
+            <div class="site-wrap">
+
+                <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+                    <div class="header-content-top">
+                        <a class="brand-link text-center">
+                            <asp:ImageButton Width="50%" Height="50%" runat="server" sizes="(max-width: 1471px) 100vw, 1471px" ID="txtIMG" ImageUrl="images/logo.png"></asp:ImageButton>
+                            <%--                        <span class="brand-text font-weight-light">Administrador</span>--%>
+                        </a>
+
+                        <!-- Sidebar -->
+                        <div class="sidebar">
+                            <!-- Sidebar user panel (optional) -->
+                            <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+
+                                <div class="info">
+                                    <a class="d-block alert-dark">
+                                        <asp:Label ID="txtUsuarioLogeado" runat="server" Text="Usuario"></asp:Label>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <asp:Panel runat="server" Height="150px">
+                            <div class="header-content-wrap">
+
+                                <div class="header-content">
+
+                                    <div class="header-content-bottom">
+
+                                        <nav class="main-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                                            <ul id="menu-menu-1" class="menu">
+                                                <li id="menu-item-9194" class="menu-item menu-item-type-taxonomy menu-item-object-portfolio-category">
+                                                    <%--MENU PRODUCTOS--%>
+
+                                                    <span class="subnav-close">
+                                                        <asp:TreeView ID="TreeView1" CssClass="bg-danger" runat="server" ImageSet="Arrows">
+                                                            <HoverNodeStyle Font-Underline="True" ForeColor="#ffff00" />
+                                                            <Nodes>
+                                                                <asp:TreeNode Text="Menú" Value="Menú" NavigateUrl="~/ADMIN/PRODUCTOS/Mis_Servicios.aspx"></asp:TreeNode>
+                                                                <asp:TreeNode Text="Pedidos" Value="Pedidos" NavigateUrl="~/ADMIN/PRODUCTOS/Solicitudes_Pedidos.aspx"></asp:TreeNode>
+
+                                                                <asp:TreeNode Text="Promociones" Value="Promociones"></asp:TreeNode>
+                                                                <asp:TreeNode Text="Anuncios" Value="Anuncios"></asp:TreeNode>
+                                                            </Nodes>
+                                                            <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                                                            <ParentNodeStyle Font-Bold="False" />
+                                                            <SelectedNodeStyle Font-Underline="True" ForeColor="#ff0000" HorizontalPadding="0px" VerticalPadding="0px" />
+                                                        </asp:TreeView>
+                                                    </span>
+                                            </ul>
+                                        </nav>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <asp:LinkButton ID="btnUsuarios" CssClass="form-control btn-block bg-success" OnClick="btnUsuarios_Click" runat="server" ForeColor="#0066FF">Usuarios</asp:LinkButton>
+
+                                <asp:LinkButton ID="LinkButton2" CssClass="form-control btn-block bg-danger" OnClientClick="if (!window.confirm('¿Desea cerrar sesion?')) return false;" OnClick="CerrarSesion_Click" runat="server" ForeColor="#0066FF">Cerrar Sesion</asp:LinkButton>
+                            </div>
+
+                        </asp:Panel>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                        <aside class="header-widgets text-xl-center" itemscope itemtype="http://schema.org/WPSideBar">
+                            <div id="social-widget-3" class="widget youxi-social-widget">
+                                <h4 class="widget-title">Redes Sociales</h4>
+                                <div class="social-list">
+
+                                    <ul class="plain-list">
+                                        <li class="social-widget-twitter">
+                                            <a href="#" title="Twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="social-widget-facebook">
+                                            <a href="#" title="Facebook">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="social-widget-instagram">
+                                            <a href="#" title="Instagram">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="header-copyright">© Willy`s y su Sabor 2021. Todos los derechos reservados.</div>
+
+                        </aside>
+
+                    </div>
+
+
+                </header>
+                <div class="content-area-wrap">
+
+                    <div class="content-area fullwidth">
+
+                        <div class="content-header">
+                            <section class="content">
+                                <div class="content-header-affix clearfix">
+
+                                    <div class="alert alert-success" style="background: red; color: white" role="alert">
+                                        <h4 class="alert-heading">Bienvenido!</h4>
+                                        <%--                                                <h6>¡Ingresa en el sistema las mejores comidas rapidas, no tienen comparación! Sabor que se disfruta, ¡Simplemente Perfecto!</h6>--%>
+                                    </div>
+
+
+                                </div>
+                            </section>
+
+
+                        </div>
+
+
+                        <div class="content-wrap">
+
+                            <div class="portfolio-grid grid-list grid-list-justified" data-gridlist-layout="justified" data-gridlist-pagination="numbered" data-gridlist-ajax-button-text="Load More" data-gridlist-ajax-button-complete-text="No More Items">
+
+                                <div class="grid-list-wrap">
+
+
+                                    <div>
+                                        <br />
+                                        <br />
+
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+
+                                </div>
+                                <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+                                <ins class="adsbygoogle"
+                                    style="display: block"
+                                    data-ad-format="autorelaxed"
+                                    data-ad-client="ca-pub-1479721362204575"
+                                    data-ad-slot="2599452185"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- jQuery -->
+        <script src="Admin_Estilos/plugins/jquery/jquery.min.js"></script>
+        <!-- jQuery UI 1.11.4 -->
+        <script src="Admin_Estilos/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+        <script>
+            $.widget.bridge('uibutton', $.ui.button)
+        </script>
+        <!-- Bootstrap 4 -->
+        <script src="Admin_Estilos/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- overlayScrollbars -->
+        <script src="Admin_Estilos/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="Admin_Estilos/dist/js/adminlte.js"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="Admin_Estilos/dist/js/demo.js"></script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5cb584ca6916daf1"></script>
+    </form>
+</body>
+
+</html>
